@@ -1,9 +1,10 @@
 import React from "react";
 
-function Header({ blogData }) {
+function Header({ name }) {
+  // console.log("from header comp:", name);
   return (
     <header>
-      <h1>{blogData}</h1>
+      <h1>{name}</h1>
     </header>
   );
 }
